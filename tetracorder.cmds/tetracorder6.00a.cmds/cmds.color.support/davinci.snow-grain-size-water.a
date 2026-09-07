@@ -114,6 +114,7 @@ a = read_an_image("group.1um/snow.and.ice-77k.fd.gif")
 a = a+ read_an_image("group.1um/h2o-frost+ice-drops3-100k.fd.gif") 
 a = a+ read_an_image("group.1um/h2o-frost+ice-drops1-100k.fd.gif") 
 a = a+ read_an_image("group.1um/snow.and.ice-170k.fd.gif") 
+a = a + read_an_image("group.1um/snow.and.ice-148k.fd.gif")
 
      xcolor= xcolor + a*( c /255.)
      a=0   # be sure array is cleared
@@ -149,9 +150,11 @@ a = read_an_image("group.1um/snow-ice-10mm-273k.fd.gif")
 
 
 # Y splib06   6258     group.1um/snow.melting.1a.fd.gif                  c_lavender       # snow trace melting
+#                      group.1um/snow.melting.3.fd.gif
 
 c= c_lavender
 a = read_an_image("group.1um/snow.melting.1a.fd.gif")
+a = a+ read_an_image("group.1um/snow.melting.3.fd.gif") 
 
      xcolor= xcolor + a*( c /255.)
      a=0   # be sure array is cleared
@@ -176,6 +179,7 @@ a = a+ read_an_image("group.1um/snow-ice-3mm+0.2water-273k.fd.gif")
 # Y sprlb06   1446     group.1um/snow-ice-10mm+0.3water-273k.fd.gif
 
 c= c_red 
+a = a + read_an_image("group.1um/snow-ice-3mm+0.3water-273k.fd.gif")
 a = read_an_image("group.1um/snow.slush.16.fd.gif")
 a = a+ read_an_image("group.1um/snow-ice-10mm+0.3water-273k.fd.gif") 
 
