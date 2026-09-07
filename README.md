@@ -402,3 +402,10 @@ Shawn P. Wright, 2025, Rover Science Autonomy in Planetary
 Exploration: Field Analog Tests, Planetary Science Journal
 6:51. https://iopscience.iop.org/article/10.3847/PSJ/adaa78
 
+# September 7, 2026
+
+Add tetracorder expert system cmd.lib.setup.t6.00a6.  This is a small update
+tightening muscovite long wavelength continua (near 2.4 microns) to partially mitigate
+the ~2.35 micron artifact in EMIT data.  Expert system cmd.lib.setup.t6.00a6 will
+be used in the EMIT V2 processing which starts this month.
+
