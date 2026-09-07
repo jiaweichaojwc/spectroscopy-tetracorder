@@ -22,7 +22,7 @@ source=/t1/tetracorder.cmds/tetracorder6.00a.cmds             ######
 ####################################################################
 #### NOTE: THINGS TO CHANGE FOR NEW VERSIONS                  ######
                                                               ######
-     lib=cmd.lib.setup.t6.00a5                                ######
+     lib=cmd.lib.setup.t6.00a6                                ######
    start=cmds.start.t6.00a                                    ######
   starts=cmds.start.t6.00a.single                             ######
                                                               ######
